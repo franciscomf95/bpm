@@ -1,0 +1,31 @@
+{
+  "name": "servidor-bpm",
+  "version": "1.0.0",
+  "description": "Servidor de la aplicación BPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Francisco Muniz Francis",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "connect-multiparty": "^2.1.0",
+    "express": "^4.16.3",
+    "firebase-admin": "^5.12.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "jwt-simple": "^0.5.1",
+    "mediaserver": "^0.1.1",
+    "moment": "^2.22.1",
+    "request": "^2.85.0",
+    "through2": "^2.0.3",
+    "xtend": "^4.0.1",
+    "youtube-api-search": "0.0.5",
+    "youtube-audio-stream": "^0.2.0",
+    "ytdl-core": "^0.20.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
